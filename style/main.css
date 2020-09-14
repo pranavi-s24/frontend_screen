@@ -98,6 +98,10 @@ nav ul {
     background-color: transparent;
     border: 0;
 }
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #319cea;
+    background-color: transparent!important;
+}
 
 /* SVG */
 
