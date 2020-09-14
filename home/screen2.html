@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Screen1</title>
+        <title>Screen2</title>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -10,27 +10,27 @@
         <link rel="stylesheet" href="../style/main.css">
         </head>
     <body class="body-bg">
-        <div class="d-flex my-3 align-items-baseline width-fit ml-5">
-            <nav class="col-xs-2 navbar navbar-expand-xxl bg-light navbar-light body-bg h-100">
+        <div class="d-flex my-3 align-items-baseline width-fit">
+            <nav class="col-xs-2 navbar navbar-expand-xxl bg-light body-bg navbar-light h-100 ml-5">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon body-bg"></span>
                 </button>
             
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav border-right">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-briefcase" aria-hidden="true"></i> Home <i class="fa fa-chevron-down pl-4" aria-hidden="true"></i>
+                            <i class="fa fa-briefcase" aria-hidden="true"></i> Home
                         </a>
                         <div class="dropdown-menu w-50" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="./screen2.html">Home</a>
+                          <a class="dropdown-item" href="screen2.html">Home</a>
                           <a class="dropdown-item" href="#">Home</a>
                           <a class="dropdown-item" href="#">Home</a>
                         </div>
                     </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-briefcase" aria-hidden="true"></i> Page 1<i class="fa fa-chevron-down pl-4" aria-hidden="true"></i>
+                            <i class="fa fa-briefcase" aria-hidden="true"></i> Page 1
                         </a>
                         <div class="dropdown-menu w-50" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Page</a>
@@ -40,7 +40,7 @@
                       </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-briefcase" aria-hidden="true"></i> Page 2<i class="fa fa-chevron-down pl-4" aria-hidden="true"></i>
+                        <i class="fa fa-briefcase" aria-hidden="true"></i> Page 2
                       </a>
                       <div class="dropdown-menu w-50" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Page</a>
@@ -56,19 +56,19 @@
             </nav>
 
 
-        <div class="col container ml-5">
+        <div class="col container">
             <div class="row align-items-baseline">
-                <div class="col py-3"><img src="../images/spotknacklogo.png" class="logo"></div>
+                <div class="col col-lg-2 py-3"><img src="../images/spotknacklogo.png" class="logo"></div>
 
-                <div class="col py-3">
+                <div class="col col-lg-2 py-3">
                     <input type="search" class="form-control rounded-pill" placeholder="search">
                 </div>
                 <div class="col py-1">
-                    <div class="dropdown profile">
+                    <div class="profile btn-group dropleft pt-4">
                         <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <img src="../images/profile.jpeg" class="img-icon">
                         </a>
-                        <div class="dropdown-menu dropdow-menu-1" x-placement="right-start">
+                        <div class="dropdown-menu top-auto drop-left-set">
                             <a class="dropdown-item" href="#">Settings</a>
                             <a class="dropdown-item" href="#">Privacy</a>
                             <a class="dropdown-item" href="#">Security</a>
@@ -81,12 +81,12 @@
             </div>
 
             <div class="d-flex justify-content-center mb-5">
-                <a href="../index.html" class="font-weight-bold text-dark day">This Week &nbsp; <span class="sr-only">(current)</span></a> | &nbsp;
-                <a href="#" class="text-dark day">Last Month &nbsp;</a> | &nbsp;
+                <a href="../index.html" class="text-dark day font-bold">This Week &nbsp; <span class="sr-only">(current)</span></a> | &nbsp;
+                <a href="../home/this_month.html" class="text-dark day">Last Month &nbsp;</a> | &nbsp;
                 <a href="#" class="text-dark day">Life Time &nbsp;</a> 
             </div>
             
-            <div class="row">
+            <div class="row ml-5">
                 <div class="col-lg-6">
                     <div class="d-flex flex-nowrap p-3 shadow h-160 mb-4 mx-4 bg-white rounded d-block">
                         <div class="col">
@@ -133,12 +133,12 @@
                     <div class="shadow mb-4 mx-4 h-160 px-3 pt-3 bg-white rounded">
                         <h5 class="pb-1 px-3">Market Share</h5>
                         <div class="d-flex">
-                            <div class="col-xs-4 col-lg-4">
+                            <div class="col-xs-4 col-lg-4 mt-3">
                                 <div class="p-1"><i class="fa fa-circle blue-1 px-2" aria-hidden="true"></i>Brand 1</div>
                                 <div class="p-1"><i class="fa fa-circle blue-2 px-2" aria-hidden="true"></i>Brand 1</div>
                                 <div class="p-1"><i class="fa fa-circle blue-3 px-2" aria-hidden="true"></i>Brand 1</div>
                             </div>
-                            <div class="col-xs-4 col-lg-4">
+                            <div class="col-xs-4 col-lg-4 mt-3">
                                 <div class="p-1">33%</div>
                                 <div class="p-1">20%</div>
                                 <div class="p-1">12%</div>
@@ -147,10 +147,10 @@
                                 <div class="box-1">
                                     <div class="percent">
                                         <svg>
-                                            <circle cx="50" cy="50" r="50"/>
-                                            <circle cx="50" cy="50" r="50"/>
-                                            <circle cx="50" cy="50" r="50"/>
-                                            <circle cx="50" cy="50" r="50"/>
+                                            <circle cx="40" cy="40" r="35"/>
+                                            <circle cx="40" cy="40" r="35"/>
+                                            <circle cx="40" cy="40" r="35"/>
+                                            <circle cx="40" cy="40" r="35"/>
                                         </svg>
                                     </div>
                                 </div>
@@ -170,12 +170,12 @@
 
                 <div class="col-lg-6">
                     <div class="d-flex flex-nowrap p-3 shadow h-160 mb-4 mx-4 bg-white rounded">
-                        <div class="col">
+                        <div class="col-xs-8 col-lg-7">
                             <h5>Total&nbsp;Orders</h5>
                             <p class="font-size-40">120</p>
                             <div class="badge bg-blue badge-pill text-primary cursor-pointer"><i class="fa fa-caret-up" aria-hidden="true"></i> +24%</div>
                         </div>
-                        <div class="col d-contents">
+                        <div class="col-xs-4 col-lg-5 d-contents">
                             <svg>
                                 <path d="M 10 130 C 40 -10, 65 10, 95 80 S 150 150, 180 80" stroke="#319cea" fill="transparent" />
                             </svg>
